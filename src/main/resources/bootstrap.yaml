@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: discovery-server
+
+  cloud:
+    config:
+      username: root
+      password: l$14V12GOKEf
+      uri: http://host.docker.internal:8094
+
+eureka:
+  client:
+    fetchRegistry: "false"
+    registerWithEureka: "false"
